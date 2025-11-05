@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans Display', Arial, Helvetica, sans-serif;
+  background-color: #fcf8d0;
+  color: #1a1a1a;
+  line-height: 1.7;
+  padding: 64px 10%;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 1.5px;
+  margin-bottom: 1px;
+}
+h2 {
+  margin: 32px 0 16px;
+  font-size: 32px;
+  letter-spacing: 0.8px;
+}
+h3 {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+.bold {
+  font-weight: 700;
+}
+
+.theme {
+  background-color: rgb(189, 231, 255);
+  padding: 24px;
+  border-radius: 12px;
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #003344;
+  line-height: 1.8;
+}
+
+.rules {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.card {
+  border-radius: 18px;
+  padding: 24px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.c1 { background-color: #ff6f61; }
+.c2 { background-color: #fcbf49; }
+.c3 { background-color: #90be6d; }
+.c4 { background-color: #577590; }
+.c5 { background-color: #9d4edd; }
+.c6 { background-color: #7dd3fc; }
+.c7 { background-color: #f9844a; }
+.c8 { background-color: #a1c4fd; }
+.c9 { background-color: #c77dff; }
+
+
+.daily {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  padding: 32px;
+  margin-top: 48px;
+  font-style: italic;
+  text-align: center;
+  color: #222;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
