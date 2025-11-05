@@ -1,0 +1,8 @@
+.header{
+    background-color:blanchedalmond;
+    font-size: 48px;
+}
+.link:hover{
+    transition: all 1s ease-in-out;
+    font-size: 48px;
+}
