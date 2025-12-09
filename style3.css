@@ -95,7 +95,7 @@ h1 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 13px;
+  font-size: 20px;
   line-height: 1.5;
   padding: 0 10px;
 }
@@ -103,8 +103,8 @@ h1 {
 
 
 .card:hover {
-  width: 180px;
-  height: 180px;
+  width: 250px;
+  height: 250px;
   border-radius: 16px;
   background: rgba(255,255,255,.15);
   backdrop-filter: blur(8px);
@@ -113,10 +113,14 @@ h1 {
 }
 
 .card:hover h2{
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
   position: absolute;
   top: 12px;
-  font-size: 15px;
+  font-size: 25px;
   color: #c6d7f0;
 }
 .card:hover .content {
@@ -137,16 +141,16 @@ h1 {
 }
 
 .visibility {
-  width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     background: radial-gradient(circle, #5980c7 0%, transparent 90%);
     border: 3px solid #9cb8ec;
-    border-radius: 90%;
+    border-radius: 50%;
     position: relative;
 }
 
 .wave {
-   width: 80%;
+    width: 80%;
     height: 50px;
     margin-top: 5px;
     background: repeating-linear-gradient(45deg, #9173e5, #2909ca 5px, #040b5e 5px,#9173e5, #040b5e 10px);

@@ -71,7 +71,7 @@ body {
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 18px;
-  width: 180px;
+  width: 200px;
   height: var(--card-collapsed-height); 
   backdrop-filter: blur(10px);
   transition: all 0.4s ease;
@@ -99,17 +99,23 @@ body {
 
 
 .card:hover {
-  height: var(--card-expanded-height);
+  height: 200px;
   transform: translateY(-10px); 
   background: rgba(255, 255, 255, 0.15);
   z-index: 10;
 }
 
+
 .card:hover .content {
   visibility: visible;
   opacity: 1; 
+  font-size: 15px;
 }
-
+.card:hover h2  {
+  font-size: 20px;
+  color: #c4b1f3;
+  transition: opacity 0.3s ease;
+}
 
 .color-temp .chart {
   width: 90%;

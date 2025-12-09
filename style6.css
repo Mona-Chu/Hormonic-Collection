@@ -61,21 +61,21 @@ body {
 }
 
 .header h1 {
-  font-size: 32px;
+  font-size: 35px;
   letter-spacing: 1px;
   color: #b9f6ca;
 }
 .date {
   text-align: center;
   margin-bottom: 6px;
-  font-size: 16px;
+  font-size: 18px;
   color: #a5d6a7;
 }
 
 .headline {
   margin-top: 6px;
   color: #a5d6a7;
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 1px;
 }
 
@@ -95,7 +95,7 @@ body {
   background: transparent;
   border: 2px solid #66bb6a;
   border-radius: 16px;
-  width: 180px;
+  width: 200px;
   height: 8px;
   display: flex;
   flex-direction: column;
@@ -113,7 +113,7 @@ body {
 }
 
 .card:hover {
-  height: 180px;
+  height: 200px;
   background: rgba(255, 255, 255, 0.08);
   border-color: #b9f6ca;
   backdrop-filter: blur(10px);
@@ -128,7 +128,7 @@ body {
 }
 
 .card h2 {
-  font-size: 18px;
+  font-size: 20px;
   color: #b9f6ca;
   margin-bottom: 10px;
   text-align: center;
@@ -163,7 +163,7 @@ body {
     margin-top: 0; 
 }
 .visibility .bar {
-  width: 60px;
+    width: 60px;
     height: 60px;
     background: radial-gradient(circle, #5efc82 00%, transparent 60%);
     border: 3px solid #00c853;
