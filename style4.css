@@ -9,20 +9,21 @@
     right: 40px;
     display: flex;
     gap: 20px;
+    z-index: 10000;
 }
 
 .nav-button-link {
     text-decoration: none;
     display: inline-block;
-    font-size: 1.1em;
+    font-size: 12px;
     font-weight: 500;
-    padding: 8px 25px;
+    padding: 4px 10px;
     cursor: pointer;
     border: none;
     outline: none;
     text-align: center;
     background-color: #ff9d00; 
-    color: #1a1a1a; 
+    color: #ffffff; 
     border-radius: 25px;
     box-shadow: 
         inset 0 1px 0 rgba(255, 255, 255, 0.5), 
