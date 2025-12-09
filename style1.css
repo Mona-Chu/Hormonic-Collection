@@ -3,6 +3,48 @@
   margin: 0;
   padding: 0;
 }
+.top-buttons {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-button-link {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 8px 25px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: #ff9d00; 
+    color: #1a1a1a; 
+    border-radius: 25px;
+    box-shadow: 
+        inset 0 1px 0 rgba(255, 255, 255, 0.5), 
+        0 4px 10px rgba(0, 0, 0, 0.2); 
+    transition: all 0.1s ease-out;
+}
+
+.nav-button-link:hover {
+    background-color: #ffc131;
+    transform: translateY(-1px);
+    box-shadow: 
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+.nav-button-link:active {
+    background-color: #ffaf37; 
+    transform: translateY(1px); 
+    box-shadow: 
+        inset 0 1px 5px rgba(0, 0, 0, 0.4), 
+        0 1px 3px rgba(0, 0, 0, 0.1); 
+}
 
 body {
   font-family: 'Noto Sans Display', Arial, Helvetica, sans-serif;
