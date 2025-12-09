@@ -5,22 +5,39 @@
 }
 
 
+:root {
+  --card-expanded-height: 140px;
+  --card-collapsed-height: 40px;
+  --header-shift-up: 100px; 
+}
 
 body {
   font-family: 'Noto Sans Display', sans-serif;
-  background: radial-gradient(circle at 50% 100%, #1e102b 0%, #2b133b 50%, #3b1b56 100%) ;
+  background: radial-gradient(circle at 50% 100%, #1e102b 0%, #2b133b 50%, #3b1b56 100%);
   color: #fff;
   min-height: 100vh;
-  overflow: hidden;
+  display: flex; 
+  flex-direction: column;
   animation: pulse 8s ease-in-out infinite;
 }
 
-.header {
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  flex-grow: 1; 
+  width: 100%;
   position: relative;
-  top: 420px;
+  transition: transform 0.4s ease; 
+}
+
+
+.header {
   width: 100%;
   text-align: center;
   z-index: 20;
+  margin-bottom: 20px; 
 }
 
 .header h1 {
@@ -35,10 +52,11 @@ body {
   letter-spacing: 1px;
 }
 
+.main-content:hover {
+  transform: translateY(calc(-1 * var(--header-shift-up))); 
+}
 
 .dashboard {
-  position: fixed;
-  bottom: 0;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -49,13 +67,12 @@ body {
   z-index: 5;
 }
 
-
 .card {
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 18px;
   width: 180px;
-  height: 40px; 
+  height: var(--card-collapsed-height); 
   backdrop-filter: blur(10px);
   transition: all 0.4s ease;
   position: relative;
@@ -74,20 +91,23 @@ body {
 
 .card .content {
   visibility: hidden;
+  opacity: 0; 
   transition: opacity 0.4s ease;
   margin-top: 10px;
+  padding: 0 10px;
 }
 
 
 .card:hover {
-  height: 140px;
-  transform: translateY(-10px);
+  height: var(--card-expanded-height);
+  transform: translateY(-10px); 
   background: rgba(255, 255, 255, 0.15);
   z-index: 10;
 }
 
 .card:hover .content {
   visibility: visible;
+  opacity: 1; 
 }
 
 
@@ -116,4 +136,3 @@ body {
   background: linear-gradient(90deg, #b993ff 10%, #6e47cf 90%);
   border-radius: 4px;
 }
-
