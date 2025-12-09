@@ -52,8 +52,7 @@ body {
 }
 
 h1 {
-    font-size: 36px;
-    letter-spacing: 2px;
+    font-size: 40px;
     color: #ff5252;
     text-transform: uppercase;
     text-shadow: 0 0 10px rgba(255, 82, 82, 0.5);

@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Noto Sans Display', Arial, Helvetica, sans-serif;
-  /* 柔和的浅黄色背景 */
   background-color: #fcf8d0; 
   color: #1a1a1a;
   line-height: 1.7;
@@ -32,7 +31,6 @@ h3 {
 }
 
 .theme {
-  /* 主题介绍背景 */
   background-color: rgb(189, 231, 255); 
   padding: 24px;
   border-radius: 12px;
@@ -43,10 +41,8 @@ h3 {
 }
 
 .rules {
-  /* 规则卡片使用 CSS Grid 布局 */
   display: grid;
   gap: 24px;
-  /* 响应式布局，卡片最小宽度 280px */
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
 }
 
@@ -57,20 +53,18 @@ h3 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* 为每个卡片设置不同的颜色，模拟情绪色彩或分类 */
-.c1 { background-color: #ff6f61; } /* 红色系 */
-.c2 { background-color: #fcbf49; } /* 橙色系 */
-.c3 { background-color: #90be6d; } /* 绿色系 */
-.c4 { background-color: #577590; } /* 蓝灰色系 */
-.c5 { background-color: #9d4edd; } /* 紫色系 */
-.c6 { background-color: #7dd3fc; } /* 浅蓝色系 */
-.c7 { background-color: #f9844a; } /* 亮橙色系 */
-.c8 { background-color: #a1c4fd; } /* 浅紫色系 (HTML中未使用) */
-.c9 { background-color: #c77dff; } /* 较亮的紫色系 */
 
+.c1 { background-color: #ff6f61; } 
+.c2 { background-color: #fcbf49; }
+.c3 { background-color: #90be6d; } 
+.c4 { background-color: #577590; } 
+.c5 { background-color: #9d4edd; } 
+.c6 { background-color: #7dd3fc; } 
+.c7 { background-color: #f9844a; } 
+.c8 { background-color: #a1c4fd; } 
+.c9 { background-color: #c77dff; } 
 
 .daily {
-  /* 底部提示语的样式 */
   background: rgba(255, 255, 255, 0.6);
   border-radius: 20px;
   padding: 32px;

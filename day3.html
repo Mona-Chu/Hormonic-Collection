@@ -1,65 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Emotional Meteorology Bureau</title>
-  <link rel="stylesheet" href="style3.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Emotional Meteorology Bureau</title>
+    <link rel="stylesheet" href="style3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body>
-
-<h1>Emotional Meteorology Bureau</h1>
-
-<div class="dashboard">
-
-  <div class="card">
-    <h2>Color Temperature</h2>
-    <div class="content">
-      <div class="bar color"></div>
-      <p>Intensity: 85 / 100</p>
+    <div class="bubbles">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
     </div>
-  </div>
+    
+    <h1>Emotional Meteorology Bureau</h1>
+    <div class="date">Date: October 8, 2025</div>
+    <div class="headline-verb"><span class="verb">Sadness · Raining</span></div>
+    
+    <div class="dashboard">
+        <div class="card">
+            <h2>Color Temperature</h2>
+            <div class="content">
+                <div class="bar color" style="width: 85%;"></div>
+                <p>Intensity: 85 / 100</p>
+            </div>
+        </div>
 
-  <div class="card">
-    <h2 class="drip">Peak Emotion Time</h2>
-    <div class="content">
-      <p>21:00 (Nightfall)</p>
+        <div class="card">
+            <h2>Peak Emotion Time</h2>
+            <div class="content">
+              <img src="pathimage2.png" alt="Peak Emotion Time" class="peak-emotion-image">
+                <p>21:00 (Nightfall)</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Social Visibility</h2>
+            <div class="content">
+                <div class="bar visibility" style="width: 90%;"></div>
+                <p>Level: 9 / 10</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Volatility Index</h2>
+            <div class="content">
+                <div class="wave"></div>
+                <p>Range: 90 → 60</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Perceived Temperature</h2>
+            <div class="content">
+              <p>❄️</p>
+                <p>-14°C</p>
+                <p>Cold Front Incoming</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Precipitation Probability</h2>
+            <div class="content">
+                <p>Chance: 98%</p>
+                <p>Silent Drizzle</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Advisory</h2>
+            <div class="content">
+                <p style="color: #ffab91; font-weight: bold;">⚠️ CAUTION</p>
+                <p>High friction expected.</p>
+                <p style="font-size: 12px;">Seek solitude if needed.</p>
+            </div>
+        </div>
     </div>
-  </div>
-
-  <div class="card">
-    <h2 class="drip">Social Visibility</h2>
-    <div class="content">
-      <div class="bar visibility"></div>
-      <p>Level: 9 / 10</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <h2 class="drip">Volatility Index</h2>
-    <div class="content">
-      <div class="wave"></div>
-      <p>Range: 90 → 60</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <h2 class="drip">Perceived Temperature</h2>
-    <div class="content">
-      <p>-14°C</p>
-      <p>Cold Front Incoming</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <h2 class="drip">Precipitation Probability</h2>
-    <div class="content">
-      <p>Chance: 98%</p>
-      <p>Silent Drizzle</p>
-    </div>
-  </div>
-
-</div>
-
 </body>
 </html>
